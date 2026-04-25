@@ -1,28 +1,40 @@
-\# Desafio Bar OO
-
-
+# 🍻 Desafio Bar OO
 
 Projeto em Java desenvolvido como exercício de orientação a objetos.
 
+---
 
+## 📌 Funcionalidades
 
-\## 🚀 Como executar
+- 🍺 Cálculo de consumo (cerveja, refrigerante, espetinho)
+- 💵 Cálculo de couvert
+- 🎟️ Cálculo de ingresso
+- 🧾 Valor total da conta
 
+---
 
+## 🚀 Como executar
 
-\### IntelliJ
+### 💻 IntelliJ
 
-\- Abrir o projeto como Gradle
+- Abrir o projeto como **Gradle**
+- Executar a classe `Program`
 
-\- Rodar a classe `Program`
+---
 
+### 🧰 Eclipse
 
+- File → Import → Gradle → *Existing Gradle Project*
+- Selecionar a pasta do projeto
+- Executar `Program.java`
 
-\### Eclipse
+---
 
-\- File → Import → Gradle → Existing Gradle Project
+## 📂 Estrutura do projeto
 
-\- Selecionar a pasta do projeto
-
-\- Executar `Program.java`
-
+```bash
+src/main/java
+ ├── application
+ │    └── Program.java
+ └── entities
+      └── Bill.java
